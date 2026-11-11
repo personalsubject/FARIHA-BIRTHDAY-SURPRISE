@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#ff6fae"><title>Fariha's Birthday Surprise</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkles" aria-hidden="true"></div>
+<header class="hero">
+  <div class="topline">A LITTLE WORLD MADE JUST FOR YOU</div>
+  <div class="hero-art" role="img" aria-label="জন্মদিনের কেক, উপহার, পুতুল ও হলুদ পাখির রঙিন ছবি">
+    <div class="cloud c1"></div><div class="cloud c2"></div>
+    <div class="balloon b1">♥</div><div class="balloon b2">★</div><div class="balloon b3">♥</div>
+    <div class="bird"><span class="wing"></span><span class="beak"></span><span class="eye"></span></div>
+    <div class="doll"><div class="hair"></div><div class="face"><i></i><i></i><b></b></div><div class="dress"></div></div>
+    <div class="cake"><div class="candle"></div><div class="icing"></div><div class="cakebody"></div><div class="plate"></div></div>
+    <div class="gift g1">🎁</div><div class="gift g2">🎀</div>
+    <div class="stars">✦　✧　✦　✧　✦</div>
+  </div>
+  <h1>Happy Birthday,<br><span>FARIHA!</span></h1>
+  <p>আজকের দিনটা শুধু তোমার জন্য 💖</p>
+  <button class="primary" id="startBtn">চলো, সারপ্রাইজ শুরু করি ✨</button>
+</header>
+
+<main>
+<section class="story panel">
+  <div class="section-tag">✦ BIRTHDAY STORY ✦</div>
+  <h2>ফারিহার জাদুর জন্মদিন</h2>
+  <div class="story-screen" id="storyScreen">
+    <div class="story-emoji" id="storyEmoji">🎈🎂🎁</div>
+    <p id="storyText">এক দেশে ছিল হাসিখুশি এক রাজকন্যা—তার নাম ফারিহা!</p>
+    <div class="story-progress"><span id="storyProgress"></span></div>
+  </div>
+  <button class="secondary" id="storyBtn">গল্প চালু করো ▶</button>
+</section>
+
+<section class="levels panel" id="levels">
+ <div class="section-tag">✦ PLAY & UNLOCK ✦</div><h2>তোমার সারপ্রাইজ মিশন</h2>
+ <div class="level-grid">
+  <button class="level unlocked" data-level="1"><span>🎈</span><b>লেভেল ১</b><small>বেলুন ধরো</small><em>খোলা আছে</em></button>
+  <button class="level locked" data-level="2"><span>🧁</span><b>লেভেল ২</b><small>কেক সাজাও</small><em>🔒 আগে লেভেল ১</em></button>
+  <button class="level locked" data-level="3"><span>🧩</span><b>লেভেল ৩</b><small>মজার ধাঁধা</small><em>🔒 আগে লেভেল ২</em></button>
+  <button class="level locked" data-level="4"><span>🎁</span><b>ফাইনাল</b><small>গোপন উপহার</small><em>🔒 আগে লেভেল ৩</em></button>
+ </div>
+ <div class="gamebox" id="gamebox">
+  <h3 id="gameTitle">🎈 বেলুন ধরো!</h3><p id="gameDesc">সবগুলো বেলুনে ট্যাপ করো।</p>
+  <div id="gameArea" class="game-area"></div>
+  <p id="gameStatus" class="status">০ / ৫</p>
+  <button class="primary small" id="gameAction">খেলা শুরু</button>
+ </div>
+</section>
+
+<section class="surprise panel" id="surprise">
+ <div class="section-tag">✦ YOUR SPECIAL GIFT ✦</div>
+ <div class="biggift">🎀</div><h2>ফারিহার জন্য ভালোবাসা</h2>
+ <p>তুমি সবসময় হাসিখুশি থেকো। তোমার প্রতিটি দিন হোক রঙিন, আনন্দে ভরা আর স্বপ্নে সাজানো।</p>
+ <div class="final-card" id="finalCard">🎂 শুভ জন্মদিন, ফারিহা! 🎂<br><small>অনেক অনেক ভালোবাসা ও শুভকামনা 💗</small></div>
+ <button class="secondary" id="confettiBtn">আবার সারপ্রাইজ দেখাও ✨</button>
+</section>
+<footer>Made with love for Fariha 💗</footer>
+</main>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body></html>
